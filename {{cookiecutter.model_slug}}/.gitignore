@@ -1,0 +1,35 @@
+# data files
+*.xlsx
+*.xls
+*.pkl
+*.pickle
+*.csv
+*.h5
+*.txt
+*.html
+
+# documentation
+*.vsdx
+*.pdf
+*.msg
+*.png
+*.gif
+*.jpg
+*.jpeg
+*.pptx
+*.xlsm
+
+# spyder stuff
+.spyproject/
+
+# python stuff
+__pycache__
+
+# TF logs
+logs/
+
+# temp files
+temp/
+
+# dirs
+Communication/
