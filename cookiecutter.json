@@ -1,0 +1,6 @@
+{
+    "ModelName": "my_model_name",
+    "model_type": ["batch", "real-time"],
+    "model_slug": "{{ cookiecutter.ModelName.lower().replace(' ', '_') }}",
+    "model_class": "{{ cookiecutter.model_slug.split('_')|map('capitalize')|join }}"
+}
